@@ -20,6 +20,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -31,6 +32,9 @@ vignettes/*.pdf
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
+_output/
+/output/
+
 
 # Temporary files created by R markdown
 *.utf8.md
@@ -38,6 +42,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+.env
 
 # pkgdown site
 docs/
@@ -47,3 +52,43 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Reports
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Temporary and cache files
+*.log
+*.aux
+*.out
+*.toc
+*.tmp
+*.swp
+*.bak
+*.zip
+*.tar.gz
+*.Rcheck/
+
+# Data (optional: uncomment if you don’t want to track raw data)
+data/
+*.csv
+*.xlsx
+
+# Targets, renv, or drake caches (if using workflow managers)
+_targets/
+renv/library_*/
+renv/python/
+
+# Ignore large or sensitive data files
+data/raw/
+*.sqlite
+*.rds
+*.sav
