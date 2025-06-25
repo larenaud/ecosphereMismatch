@@ -6,9 +6,9 @@ This repository contains anonymized and processed datasets used in the analyses 
 
 ## Contents
 
-- `ECS25-0363_unscaledDat.csv` — individual-level demographic and phenological data
-- `ECS25-0363_massGainDat.csv` — subset used for mass gain analyses
-- `ECS25-0363_breedingDat.csv` — subset used for breeding probability analyses
+- `ECS25-0363_unscaledDat.csv` — individual-level demographic and phenological data. Please rename to df_unscaled_filtered to run analyses. 
+- `ECS25-0363_massGainDat.csv` — subset used for mass gain analyses. Please rename to mass_gain_df_filtered to run analyses. 
+- `ECS25-0363_breedingDat.csv` — subset used for breeding probability analyses. Please rename to consec_df_filtered to run analyses. 
 
 ## Notes
 

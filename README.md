@@ -10,9 +10,9 @@ manuscript ID: ECS25-0363
 ## 📂 Repository Contents
 
 - `data/`
-  - `ECS25-0363_unscaledDat.csv`: full individual-level data
-  - `ECS25-0363_massGainDat.csv`: subset for mass gain analyses
-  - `ECS25-0363_breedingDat.csv`: subset for reproductive analyses
+  - `ECS25-0363_unscaledDat.csv`: full individual-level data (names to be changed in R codes)
+  - `ECS25-0363_massGainDat.csv`: subset for mass gain analyses (names to be changed in R codes)
+  - `ECS25-0363_breedingDat.csv`: subset for reproductive analyses (names to be changed in R codes)
 
 - `dataTidyingV2.R`: script to process and anonymize data
 - `analyses.R`: script to run models of mass gain and carry-over effects 

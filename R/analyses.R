@@ -37,8 +37,15 @@ library('gratia')
 # 1 - male
 # 2 - female
 
+
+
+
 # Load the data as an R object --------------------------------------------
-load("data/mine/mismatch_df_2025-05-08.RData")
+# load("data/mine/mismatch_df_2025-05-08.RData")
+
+df_unscaled_filtered <- read.csv("data/ECS25-0363_breedingDat.csv")
+mass_gain_df_filtered <-  read.csv("data/ECS25-0363_massGainDat.csv")
+consec_df_filtered <- read.csv("data/ECS25-0363_breedingDat.csv")
 
 # Different datasets are: 
 # df_unscaled # entire dataframe, not scaled, not filtered for any outliers, to get range of different variables and overall sample sizes. 
