@@ -78,9 +78,9 @@ Thumbs.db
 *.Rcheck/
 
 # Data (optional: uncomment if you don’t want to track raw data)
-data/
-*.csv
-*.xlsx
+# data/
+# *.csv
+# *.xlsx
 
 # Targets, renv, or drake caches (if using workflow managers)
 _targets/
